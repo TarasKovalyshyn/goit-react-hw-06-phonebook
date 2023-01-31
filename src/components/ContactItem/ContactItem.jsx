@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { removeContacts } from 'components/redux/contactsSlice';
+import { removeContacts } from 'redux/contactsSlice';
 const ContactItem = ({ id, name, number }) => {
   const dispatch = useDispatch();
   return (
